@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-  padding: 30px 60px;
+  padding: 30px 70px 30px 90px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,7 +25,7 @@ nav {
           justify-content: space-between;
 }
 
-nav img {
+nav .sitelogo {
   width: 80px;
 }
 
@@ -42,8 +42,9 @@ nav ul {
 }
 
 nav ul li {
+  cursor: pointer;
   white-space: nowrap;
-  margin: 0 25px;
+  margin: 0 22px;
 }
 
 nav ul li a {
@@ -53,5 +54,57 @@ nav ul li a {
   background-color: #ffd498;
   border-radius: 12px;
   color: black;
+}
+
+nav .arrow {
+  width: 85px;
+  position: absolute;
+  right: 140px;
+  top: 87px;
+}
+
+.firstsection {
+  padding: 0px 10px 10px 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.firstsection .pageDescription {
+  padding: 90px 0px;
+}
+
+.firstsection .pageDescription img {
+  position: relative;
+  top: 15px;
+  width: 30px;
+}
+
+.firstsection .pageDescription h1 {
+  margin-bottom: 25px;
+  font-weight: 900;
+  font-size: 2.6em;
+  width: 430px;
+}
+
+.firstsection .pageDescription p {
+  font-weight: bold;
+  color: #5a5a5a;
+  width: 400px;
+  font-size: 0.9em;
+  margin-bottom: 25px;
+}
+
+.firstsection .pageDescription .appStoreLinks img {
+  cursor: pointer;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.firstsection .meditationPhoto {
+  width: 55%;
 }
 /*# sourceMappingURL=index.css.map */

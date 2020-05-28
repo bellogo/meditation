@@ -12,10 +12,11 @@
 
 body {
   font-family: sans-serif;
+  width: 1080px;
 }
 
 nav {
-  padding: 30px 70px 30px 90px;
+  padding: 30px 70px 30px 80px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,13 +59,13 @@ nav ul li a {
 
 nav .arrow {
   width: 85px;
-  position: absolute;
-  right: 140px;
-  top: 87px;
+  position: relative;
+  left: 730px;
+  top: 55px;
 }
 
 .firstsection {
-  padding: 0px 10px 10px 90px;
+  padding: 0px 10px 10px 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,5 +107,47 @@ nav .arrow {
 
 .firstsection .meditationPhoto {
   width: 55%;
+}
+
+.secondSection {
+  height: 358px;
+}
+
+.secondSection .peacephoto {
+  width: 100%;
+  padding: 80px;
+}
+
+.secondSection .secondSectionDescription {
+  width: 367px;
+  position: relative;
+  bottom: 99%;
+  left: 50%;
+}
+
+.secondSection .secondSectionDescription h1 {
+  font-weight: 700;
+  font-size: 2.0em;
+  color: white;
+}
+
+.secondSection .secondSectionDescription p {
+  font-weight: bold;
+  color: #f7f7f7;
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
+.secondSection .secondSectionDescription .appStoreLinks2 {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.secondSection .secondSectionDescription .appStoreLinks2 img {
+  cursor: pointer;
+  width: 120px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=index.css.map */

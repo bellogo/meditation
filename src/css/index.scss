@@ -6,25 +6,19 @@
 }
 
 $themelightorange: rgb(255,212,152);
-// @mixin flexcolumn230pxwidth {
-//     display: flex;
-//     flex-direction: column;
-//     width: 230px;
-//     align-items: center;
-// }
 
-// @include flexcolumn230pxwidth;
 ::-webkit-scrollbar {
     display: none;
 }
 
 body {
     font-family: sans-serif;
+    width: 1080px;
 }
 
 
 nav {
-    padding: 30px 70px 30px 90px;
+    padding: 30px 70px 30px 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -53,15 +47,15 @@ nav {
     }
     .arrow {
         width: 85px;
-        position: absolute;
-        right: 140px;
-        top: 87px;
+        position: relative;
+        left: 730px;
+        top: 55px;
     }
 
 }
 
 .firstsection {
-    padding: 0px 10px 10px 90px;
+    padding: 0px 10px 10px 80px;
     display: flex;
     justify-content: space-between;
     .pageDescription {
@@ -94,5 +88,40 @@ nav {
     }
     .meditationPhoto {
         width: 55%;
+    }
+}
+
+.secondSection {
+    height: 358px;
+    .peacephoto {
+        width: 100%;
+        padding: 80px;
+    }
+    .secondSectionDescription {
+        width: 367px;
+        position: relative;
+        bottom: 99%;
+        left: 50%;
+        
+        h1 {
+            font-weight: 700;
+            font-size: 2.0em;
+            color:white;
+        }
+        p {
+            font-weight: bold;
+            color:rgb(247, 247, 247);
+            font-size: 0.8em;
+            margin-top: 10px;
+        }
+        .appStoreLinks2 {
+            margin-top: 30px;
+            display: flex;
+            img {
+                cursor: pointer;
+                width: 120px;
+                margin-right: 10px;
+            }
+        }
     }
 }

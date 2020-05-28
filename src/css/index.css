@@ -109,6 +109,58 @@ nav .arrow {
   width: 55%;
 }
 
+.newSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 80px 30px 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newSection img {
+  width: 50%;
+}
+
+.newSection div {
+  width: 352px;
+}
+
+.newSection div img {
+  width: 27px;
+  position: relative;
+  top: 65px;
+  left: 320px;
+}
+
+.newSection div h1 {
+  margin-bottom: 25px;
+  font-weight: 900;
+  font-size: 2.2em;
+}
+
+.newSection div p {
+  font-weight: bold;
+  color: #5a5a5a;
+  font-size: 0.9em;
+  margin-bottom: 40px;
+}
+
+.newSection div a {
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 20px 60px;
+  background-color: #f57b51;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
 .secondSection {
   height: 358px;
   margin-bottom: 150px;
@@ -223,6 +275,7 @@ footer .footerItem234 form {
 }
 
 footer .footerItem234 form input {
+  cursor: pointer;
   height: 32.5px;
   border-radius: 12px;
   border: none;
@@ -232,6 +285,7 @@ footer .footerItem234 form input {
 }
 
 footer .footerItem234 form button {
+  cursor: pointer;
   border: none;
   background-color: #ffd498;
   height: 32.2px;
@@ -251,6 +305,7 @@ footer .footerItem234 div {
 footer .footerItem234 div img {
   height: 25px;
   margin-right: 32px;
+  cursor: pointer;
 }
 
 ::-webkit-input-placeholder {

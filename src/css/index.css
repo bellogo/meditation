@@ -27,7 +27,7 @@ nav {
 }
 
 nav .sitelogo {
-  width: 80px;
+  width: 70px;
 }
 
 nav ul {
@@ -60,8 +60,8 @@ nav ul li a {
 nav .arrow {
   width: 85px;
   position: relative;
-  left: 730px;
-  top: 55px;
+  left: 676px;
+  top: 50px;
 }
 
 .firstsection {
@@ -111,6 +111,7 @@ nav .arrow {
 
 .secondSection {
   height: 358px;
+  margin-bottom: 150px;
 }
 
 .secondSection .peacephoto {
@@ -149,5 +150,126 @@ nav .arrow {
   cursor: pointer;
   width: 120px;
   margin-right: 10px;
+}
+
+footer {
+  padding: 60px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footerItem1 img {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+footer .footerItem1 h4 {
+  font-size: 0.8em;
+  font-weight: 800;
+}
+
+footer .footerItem1 p {
+  font-size: 0.74em;
+  font-weight: bold;
+  color: #5a5a5a;
+  margin-bottom: 20px;
+}
+
+footer .footerItem234 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  padding: 20px 0;
+}
+
+footer .footerItem234 h4 {
+  margin-bottom: 20px;
+  font-size: 0.89em;
+  font-weight: bold;
+}
+
+footer .footerItem234 p {
+  font-size: 0.74em;
+  font-weight: bold;
+  color: #5a5a5a;
+  margin-bottom: 20px;
+  line-height: 1.6em;
+}
+
+footer .footerItem234 a {
+  text-decoration: none;
+  color: #5a5a5a;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer .footerItem234 form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footerItem234 form input {
+  height: 32.5px;
+  border-radius: 12px;
+  border: none;
+  background-color: #fff4e6;
+  width: 250px;
+  padding-left: 20px;
+}
+
+footer .footerItem234 form button {
+  border: none;
+  background-color: #ffd498;
+  height: 32.2px;
+  font-weight: bold;
+  border-radius: 12px;
+  width: 110px;
+  font-size: 0.76em;
+  position: relative;
+  right: 30px;
+  padding-bottom: 0.9px;
+}
+
+footer .footerItem234 div {
+  margin-top: 20px;
+}
+
+footer .footerItem234 div img {
+  height: 25px;
+  margin-right: 32px;
+}
+
+::-webkit-input-placeholder {
+  font-weight: bold;
+  font-size: 0.78em;
+}
+
+:-ms-input-placeholder {
+  font-weight: bold;
+  font-size: 0.78em;
+}
+
+::-ms-input-placeholder {
+  font-weight: bold;
+  font-size: 0.78em;
+}
+
+::placeholder {
+  font-weight: bold;
+  font-size: 0.78em;
 }
 /*# sourceMappingURL=index.css.map */

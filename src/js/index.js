@@ -1,7 +1,7 @@
 const html = document.querySelector('html');
 
-window.addEventListener('resize', () => {
-    if (window.innerWidth > 0) {
+const resizePage = () => {
+    if (window.innerWidth > 768) {
         let defaultFontSize = 12;
         let defaultScreenSize = 768;
         let currentScreenSize = window.innerWidth;
@@ -10,4 +10,9 @@ window.addEventListener('resize', () => {
         newFontSize += 'px'
         html.style.fontSize = newFontSize;
     }
+} 
+window.addEventListener('resize', () => {
+    resizePage();
 })
+
+window.addEventListener("load", resizePage());

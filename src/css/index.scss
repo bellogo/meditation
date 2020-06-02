@@ -16,6 +16,10 @@ body {
     width: 100%;
 }
 
+#waves {
+    display: none;
+    cursor: pointer;
+}
 
 nav {
     padding: 1.87em 4.375em 1.87em 5em;
@@ -293,4 +297,89 @@ footer {
 ::placeholder {
     font-weight: bold;
     font-size: 0.76rem;
+}
+
+
+@media screen and (max-width : 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #waves {
+        display: block;
+        display: block;
+        width: 2.2rem;
+        height: 1.6rem;
+    }
+
+
+    nav {
+        padding: 1.3em 1.3em;
+        align-items: center;
+
+        .sitelogo {
+            width: 6.575em;
+        }
+
+        ul {
+            display: none;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            z-index: 1;
+            right: 1.3rem;
+            top: 4.3rem;
+            height: 14rem;
+            border: 1px solid rgb(255, 244, 230);
+            border-radius: 0.75rem;
+            font-size: .9rem;
+            flex-direction: column;
+            justify-content: space-around;
+
+            &:hover {
+                background-color: rgba(255, 244, 230, 0.959);
+            }
+            li {
+                margin: 0 .7rem;
+            }
+
+            .abtn {
+                margin-bottom: .8rem;
+            }
+
+        }
+
+        .navactive {
+            display: flex;
+        }
+
+        .arrow {
+            display: none;
+        }
+
+    }
+
+    .firstsection {
+        justify-content: center;
+        padding: 1.3em 1.5em;
+
+        .pageDescription {
+            padding: 0;
+
+            h1 {
+                font-size: 2.53em;
+                width: 100%;
+            }
+
+            p {
+                font-size: 1.0em;
+                width: 100%;
+            }
+        }
+
+        .meditationPhoto {
+            display: none;
+        }
+    }
+
 }

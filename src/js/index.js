@@ -1,4 +1,6 @@
 const html = document.querySelector('html');
+const waves = document.querySelector('#waves');
+const ulContainer = document.querySelector('.ulContainer')
 
 const resizePage = () => {
     if (window.innerWidth > 768) {
@@ -10,9 +12,16 @@ const resizePage = () => {
         newFontSize += 'px'
         html.style.fontSize = newFontSize;
     }
-} 
+    if (window.innerWidth < 768) {
+        html.style.fontSize = "15px";
+    }
+}
 window.addEventListener('resize', () => {
     resizePage();
 })
 
 window.addEventListener("load", resizePage());
+
+waves.addEventListener("click", () => {
+    ulContainer.classList.toggle('navactive');
+})

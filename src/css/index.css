@@ -128,6 +128,10 @@ nav .arrow {
           align-items: center;
 }
 
+.secondSection .miniAppIMG {
+  display: none;
+}
+
 .secondSection .phoneAppViewIMG {
   width: 50%;
 }
@@ -154,14 +158,13 @@ nav .arrow {
   font-weight: bold;
   color: #5a5a5a;
   font-size: 0.9em;
+  padding-bottom: 1rem;
 }
 
-.secondSection div a {
-  position: relative;
-  top: 3rem;
+.secondSection div button {
+  border: none;
   font-size: 0.9em;
   white-space: nowrap;
-  text-decoration: none;
   padding: 1.25rem 3.75rem;
   background-color: #f57b51;
   border-radius: 0.75rem;
@@ -407,6 +410,37 @@ footer .footerItem234 div img {
   }
   .firstsection .meditationPhoto {
     display: none;
+  }
+  .secondSection {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1.3em 1.5em;
+  }
+  .secondSection .miniAppIMG {
+    display: block;
+    width: 35%;
+  }
+  .secondSection .phoneAppViewIMG {
+    display: none;
+  }
+  .secondSection div {
+    margin: 0;
+    padding-left: 1rem;
+    width: 65%;
+  }
+  .secondSection div .strokesIMG2 {
+    left: 0rem;
+    top: .4rem;
+  }
+  .secondSection div h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    line-height: 2.8rem;
+  }
+  .secondSection div p {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=index.css.map */

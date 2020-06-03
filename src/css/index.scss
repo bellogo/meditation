@@ -167,33 +167,37 @@ nav {
         width: 100%;
     }
 
+    .verticalpeaceIMG{
+        display: none;
+    }
+
     .secondSectionDescription {
-        width: 22.9375em;
+        width: 22.9375rem;
         position: relative;
-        bottom: 16.8375em;
+        bottom: 16.8375rem;
         left: 50%;
 
         h1 {
             font-weight: 700;
-            font-size: 2.0em;
+            font-size: 2.0rem;
             color: white;
         }
 
         p {
             font-weight: bold;
             color: rgb(247, 247, 247);
-            font-size: 0.8em;
+            font-size: 0.8rem;
             margin-top: 0.625rem;
         }
 
         .appStoreLinks2 {
-            margin-top: 1.875em;
+            margin-top: 1.875rem;
             display: flex;
 
             img {
                 cursor: pointer;
-                width: 7.5em;
-                margin-right: 0.625em;
+                width: 7.5rem;
+                margin-right: 0.625rem;
             }
         }
     }
@@ -421,4 +425,42 @@ footer {
         }
     }
 
+    .thirdSection {
+        height: 75.5em;
+        padding: 1.3rem 1.5rem;
+        .peacephoto {
+            display: none;
+        }
+    
+        .verticalpeaceIMG{
+            display: block;
+            width: 100%;
+        }
+    
+        .secondSectionDescription {
+            text-align: center;
+            position: relative;
+            left: 0;
+            bottom: 27em;
+            width: 100%;
+            padding: 0 1rem;
+            h1 {
+                font-size: 3.8em;
+            }
+    
+            p {
+                font-size: 1.7em;
+            }
+    
+            .appStoreLinks2 {
+                justify-content: center;
+                img {
+                   width: 16em;
+                }
+            }
+        }
+    }
+    footer {
+        display: none;
+    }
 }

@@ -180,28 +180,32 @@ nav .arrow {
   width: 100%;
 }
 
+.thirdSection .verticalpeaceIMG {
+  display: none;
+}
+
 .thirdSection .secondSectionDescription {
-  width: 22.9375em;
+  width: 22.9375rem;
   position: relative;
-  bottom: 16.8375em;
+  bottom: 16.8375rem;
   left: 50%;
 }
 
 .thirdSection .secondSectionDescription h1 {
   font-weight: 700;
-  font-size: 2.0em;
+  font-size: 2.0rem;
   color: white;
 }
 
 .thirdSection .secondSectionDescription p {
   font-weight: bold;
   color: #f7f7f7;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   margin-top: 0.625rem;
 }
 
 .thirdSection .secondSectionDescription .appStoreLinks2 {
-  margin-top: 1.875em;
+  margin-top: 1.875rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,8 +213,8 @@ nav .arrow {
 
 .thirdSection .secondSectionDescription .appStoreLinks2 img {
   cursor: pointer;
-  width: 7.5em;
-  margin-right: 0.625em;
+  width: 7.5rem;
+  margin-right: 0.625rem;
 }
 
 footer {
@@ -441,6 +445,42 @@ footer .footerItem234 div img {
   }
   .secondSection div p {
     font-size: 1rem;
+  }
+  .thirdSection {
+    height: 75.5em;
+    padding: 1.3rem 1.5rem;
+  }
+  .thirdSection .peacephoto {
+    display: none;
+  }
+  .thirdSection .verticalpeaceIMG {
+    display: block;
+    width: 100%;
+  }
+  .thirdSection .secondSectionDescription {
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 27em;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .thirdSection .secondSectionDescription h1 {
+    font-size: 3.8em;
+  }
+  .thirdSection .secondSectionDescription p {
+    font-size: 1.7em;
+  }
+  .thirdSection .secondSectionDescription .appStoreLinks2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .thirdSection .secondSectionDescription .appStoreLinks2 img {
+    width: 16em;
+  }
+  footer {
+    display: none;
   }
 }
 /*# sourceMappingURL=index.css.map */

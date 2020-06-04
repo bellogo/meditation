@@ -245,8 +245,41 @@ footer .footerItem1 p {
   margin-bottom: 1.25rem;
 }
 
-footer .footerItem234 {
+footer .footermiddle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footermiddle .footerItem23 {
   margin-right: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  padding-top: 1.9rem;
+  width: 6.25rem;
+}
+
+footer .footermiddle .footerItem23 h4 {
+  margin-bottom: 1.25rem;
+  font-size: 0.93em;
+  font-weight: 800;
+}
+
+footer .footermiddle .footerItem23 a {
+  text-decoration: none;
+  color: #5a5a5a;
+  font-size: 0.83em;
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}
+
+footer .footerItem4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -258,13 +291,13 @@ footer .footerItem234 {
   padding-top: 1.9rem;
 }
 
-footer .footerItem234 h4 {
+footer .footerItem4 h4 {
   margin-bottom: 1.25rem;
   font-size: 0.93em;
   font-weight: 800;
 }
 
-footer .footerItem234 p {
+footer .footerItem4 p {
   font-size: 0.78em;
   font-weight: bold;
   color: #5a5a5a;
@@ -272,19 +305,14 @@ footer .footerItem234 p {
   line-height: 1.3rem;
 }
 
-footer .footerItem234 a {
-  text-decoration: none;
-  color: #5a5a5a;
-  font-size: 0.83em;
-  font-weight: bold;
-  margin-bottom: 0.625rem;
-}
-
-footer .footerItem234 form {
+footer .footerItem4 form {
   height: 2.5125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-footer .footerItem234 form input {
+footer .footerItem4 form input {
   font-size: 0.76em;
   cursor: pointer;
   height: 2.5125rem;
@@ -295,7 +323,7 @@ footer .footerItem234 form input {
   padding-left: 1.25rem;
 }
 
-footer .footerItem234 form button {
+footer .footerItem4 form button {
   font-size: 0.76em;
   cursor: pointer;
   border: none;
@@ -305,16 +333,15 @@ footer .footerItem234 form button {
   border-radius: 0.75rem;
   width: 8.875rem;
   position: relative;
-  left: 15.2rem;
-  bottom: 2.5rem;
+  right: 1.5em;
   padding-bottom: 0.05625rem;
 }
 
-footer .footerItem234 div {
+footer .footerItem4 div {
   margin-top: 1.25em;
 }
 
-footer .footerItem234 div img {
+footer .footerItem4 div img {
   height: 1.5625em;
   margin-right: 2em;
   cursor: pointer;
@@ -345,6 +372,18 @@ footer .footerItem234 div img {
     margin: 0;
     padding: 0;
   }
+  ::-webkit-input-placeholder {
+    font-size: 0.8rem;
+  }
+  :-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  ::-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  ::placeholder {
+    font-size: 0.8rem;
+  }
   #waves {
     display: block;
     display: block;
@@ -367,7 +406,7 @@ footer .footerItem234 div img {
     z-index: 1;
     right: 1.3rem;
     top: 4.3rem;
-    height: 14rem;
+    height: 14.5rem;
     border: 1px solid #fff4e6;
     border-radius: 0.75rem;
     font-size: .9rem;
@@ -385,7 +424,7 @@ footer .footerItem234 div img {
     margin: 0 .7rem;
   }
   nav ul .abtn {
-    margin-bottom: .8rem;
+    margin: .9rem 0;
   }
   nav .navactive {
     display: -webkit-box;
@@ -399,10 +438,13 @@ footer .footerItem234 div img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 1.3em 1.5em;
+    padding: 3em 1.5em;
   }
   .firstsection .pageDescription {
     padding: 0;
+  }
+  .firstsection .pageDescription .strokesIMG {
+    top: 0.8975em;
   }
   .firstsection .pageDescription h1 {
     font-size: 2.53em;
@@ -420,7 +462,7 @@ footer .footerItem234 div img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 1.3em 1.5em;
+    padding: 3em 1.5em;
   }
   .secondSection .miniAppIMG {
     display: block;
@@ -448,7 +490,8 @@ footer .footerItem234 div img {
   }
   .thirdSection {
     height: 75.5em;
-    padding: 1.3rem 1.5rem;
+    padding: 1.3em 1.5em;
+    margin: 2rem 0;
   }
   .thirdSection .peacephoto {
     display: none;
@@ -480,7 +523,51 @@ footer .footerItem234 div img {
     width: 16em;
   }
   footer {
-    display: none;
+    padding: 3em 1.5em;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .footerItem1 {
+    width: 100%;
+  }
+  footer .footerItem1 img {
+    width: 5.4rem;
+  }
+  footer .footerItem1 p {
+    font-size: .9rem;
+  }
+  footer .footermiddle {
+    width: 100%;
+  }
+  footer .footermiddle .footerItem23 {
+    width: 50%;
+  }
+  footer .footermiddle .footerItem23 h4 {
+    font-size: 1rem;
+  }
+  footer .footermiddle .footerItem23 a {
+    font-size: .9rem;
+  }
+  footer .footerItem4 {
+    width: 100%;
+  }
+  footer .footerItem4 h4 {
+    font-size: 1rem;
+  }
+  footer .footerItem4 p {
+    font-size: .9rem;
+  }
+  footer .footerItem4 form {
+    width: 100%;
+  }
+  footer .footerItem4 form input {
+    width: 70%;
+    height: 2.7125rem;
+  }
+  footer .footerItem4 form button {
+    width: 30%;
+    font-size: 0.8rem;
+    height: 2.7125rem;
   }
 }
 /*# sourceMappingURL=index.css.map */

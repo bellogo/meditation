@@ -397,7 +397,7 @@ footer {
             padding: 0;
 
             .strokesIMG {
-                top: 0.8975em;
+                top: 0.7em;
             }
 
             h1 {
@@ -475,18 +475,18 @@ footer {
             padding: 0 1rem;
 
             h1 {
-                font-size: 3.8em;
+                font-size: 2.7em;
             }
 
             p {
-                font-size: 1.7em;
+                font-size: 1.3em;
             }
 
             .appStoreLinks2 {
                 justify-content: center;
-
+                align-items: center;
                 img {
-                    width: 16em;
+                    flex-basis: 15em;
                 }
             }
         }

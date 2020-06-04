@@ -444,7 +444,7 @@ footer .footerItem4 div img {
     padding: 0;
   }
   .firstsection .pageDescription .strokesIMG {
-    top: 0.8975em;
+    top: 0.7em;
   }
   .firstsection .pageDescription h1 {
     font-size: 2.53em;
@@ -509,18 +509,22 @@ footer .footerItem4 div img {
     padding: 0 1rem;
   }
   .thirdSection .secondSectionDescription h1 {
-    font-size: 3.8em;
+    font-size: 2.7em;
   }
   .thirdSection .secondSectionDescription p {
-    font-size: 1.7em;
+    font-size: 1.3em;
   }
   .thirdSection .secondSectionDescription .appStoreLinks2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .thirdSection .secondSectionDescription .appStoreLinks2 img {
-    width: 16em;
+    -ms-flex-preferred-size: 15em;
+        flex-basis: 15em;
   }
   footer {
     padding: 3em 1.5em;

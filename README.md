@@ -1,5 +1,5 @@
 # Meditation
-A simple responsive page with a meditation app concept created to apply a personally thought out method to create reponsive pages for all screens using Javascript event listener to watch window resize. 
+A simple responsive fictional UI for a meditation webapp. 
 
 ## Built With
 
@@ -29,4 +29,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is Bela licensed.
+This project is [MIT](lic.url) licensed.
